@@ -1,0 +1,136 @@
+/* すべての要素に対して box-sizing: border-box; を指定してください */
+*{
+  box-sizing: border-box;
+}
+
+/* ブレイクポイントをmax-width: 1000pxに指定してください */
+@media screen and (min-width: 700px) and (max-width: 900px) {
+ 
+  /* h1のcolorをgreenに指定してください */
+  h1{
+    color: blue;
+    text-align: center;
+  }
+ 
+body{
+	width: 700px;
+	margin-right: auto;/*ここで中央寄せを指定する。*/
+	margin-left:  auto;/*ここで中央寄せを指定する。*/
+	
+}
+
+.gazou1{
+	text-align: center;/* 画像をセンターに配置*/
+	position: relative;/*親要素　*/
+	z-index: 1; /* 要素の優先順位を決める　被せる */
+	width: 700px;
+	height: 450px;
+}
+.gazou1 img{
+	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: auto;
+ 	 height: auto;
+ 	 min-width: 100%;
+  	min-height: 100%;
+  	max-width: inherit;
+}
+.gazou1 h3{
+	position: absolute;/*子要素　親要素の領域上で画像を移動配置*/
+	top: 100px;	/*移動*/
+	left: 250px;
+	color: white;
+	font-size: 45px;
+}
+
+.head{
+	position: relative;/*親要素　*/
+	background-image: url("../image/haikei.jpg");
+	height: 80px;
+	line-height: 80px;/* 行の高さを変える。 */
+	margin: 0px; /*空白を消す*/
+    	padding: 0px;/*空白を消す*/
+	text-align: right;
+	
+	
+}
+.head h1{
+	
+}
+.head p{
+	
+}
+.head a{
+	
+}
+.head img{
+	position: absolute;/*子要素　親要素の領域上で画像を移動配置*/
+	top: 0px;	/*移動*/
+	left: 115px;
+}
+
+.menu {
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	display: flex-wrap;
+	
+}
+
+.menu li {
+	list-style: none;
+	
+}
+
+.menu li a {
+	width: 700px;
+	height: 100%;
+	font-size: 15px;
+	color: #ffffff;
+	background: green;
+	text-decoration: none;/*ヘッダーの下線を非表示にする*/
+	/*border-right: 1px solid #eeeeee; 横線　ヘッダーの区切り */
+	box-sizing: border-box;
+	display: inline-block; /*画面サイズを変えると見切れる*/
+	/*display:table-cell; 画面サイズを変えても見切れない*/
+/*	vertical-align: middle; 縦方向の揃え位置を指定する*/
+	text-align: center;
+}
+
+.menu  li:hover  a {
+	color: white;
+	background: #009900;
+}
+
+.menu li ul {
+	display: none; /* 要素も取得されず、完全にその場にない扱い */
+	margin-left: -40px;
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+}
+
+.menu  li ul li:hover  a {
+	color: white;
+	background: #00CC00;
+}
+
+.menu li ul li a {
+	border-top: 1px solid #eeeeee;
+	text-align: left;
+}
+.sinb{
+	border: double 10px black;
+}
+.sina{
+	border-bottom: 1px solid blue;
+}
+
+/*.gazou1 .pc { 
+	display: none !important;  スマホ画面サイズの時に非表示にする。
+	width:100%;
+	max-width: 100%;
+	height: auto;
+}
+.gazou1 .sp { display: block !important; }　スマホ画面サイズの時に表示する。 */

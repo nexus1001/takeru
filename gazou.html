@@ -1,0 +1,19 @@
+<div class="gazou">
+<img class="sp" src="../image/image670/kodomo1.jpg" name="gazou">
+<script type="text/javascript">
+img2 = new Array("../image/image670/kodomo1.jpg","../image/image670/kodomo2.jpg","../image/image670/kodomo3.jpg","../image/image670/kodomo4.jpg","../image/image670/kodomo1.jpg","../image/image670/kodomo2.jpg"); //*1
+count = -1; //*2
+imgTimer();
+
+function imgTimer() {
+	//画像番号
+	count++; //*3
+	//画像の枚数確認
+	if (count == img2.length) count = 0; //*4
+	//画像出力
+	document.gazou.src = img2[count]; //*5
+	//次のタイマー呼びだし
+	setTimeout("imgTimer()",1000*3.5); //*6
+}
+</script>
+</div>

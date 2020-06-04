@@ -1,0 +1,13 @@
+.gazou{
+	text-align: center;/* 画像をセンターに配置*/
+	position: relative;/*親要素　*/
+	z-index: 1; /* 要素の優先順位を決める　被せる */
+	
+}
+.gazou h3{
+	position: absolute;/*子要素　親要素の領域上で画像を移動配置*/
+	top: 100px;	/*移動*/
+	left: 450px;
+	color: white;
+	font-size: 45px;
+}

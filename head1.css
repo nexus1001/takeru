@@ -1,0 +1,30 @@
+/* ドロップダウンメニュー */
+
+body{
+	width: 1200px;
+	margin-right: auto;/*ここで中央寄せを指定する。*/
+	margin-left:  auto;/*ここで中央寄せを指定する。*/
+	
+}
+.head{
+	position: relative;/*親要素　*/
+	background-image: url("../image/haikei.jpg");
+	height: 80px;
+	line-height: 80px;/* 行の高さを変える。 */
+	margin: 0px; /*空白を消す*/
+    	padding: 0px;/*空白を消す*/
+	text-align: right;
+	
+	
+}
+.head h1{
+	
+}
+.head p{
+	
+}
+.head img{
+	position: absolute;/*子要素　親要素の領域上で画像を移動配置*/
+	top: 0px;	/*移動*/
+	left: 330px;
+}

@@ -1,0 +1,8 @@
+﻿.sample01 ul li ul{
+	display: none;
+<!-- 非表示にする -->
+}
+.sample01 ul li:hover ul{
+	display: block;
+<!-- hoverしたら表示する -->
+}

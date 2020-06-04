@@ -1,0 +1,140 @@
+﻿.sample01 ul li ul li{
+	height: 0;
+	overflow: hidden;
+}
+.sample01 ul li:hover ul li{
+	height: auto; /*サブメニューの高さ*/
+	overflow: visible;
+}
+header{
+	margin-bottom: 13em;
+	position: relative;
+	width: 100%;
+	background-color: #444;
+}
+.abc li{
+	display: inline-block; /* 横並びに配置 */
+	width: 18.8%;
+}
+.abc li  a{
+	padding: 20px 20px;
+	display: block;
+	font-size: 0.8em;
+	text-transform: uppercase; /*英文字の大文字や小文字での表示方法を指定る*/
+	letter-spacing: .2em;/*文字の間隔を指定*/
+}
+.abc li  span{
+	margin-left: 1.6em;/*ヘッダーの大きさを変更*/
+}
+.abc li:hover  a{
+	background-color: #efefef;
+	color: #444;
+}
+/* Submenu */
+ 
+.abc .aa ul{
+	position: absolute;
+	top:  60px; /* 位置を変える*/
+	left: 0;
+	
+}
+.abc .bb ul{
+	position: absolute;
+	top:  60px; /* 位置を変える*/
+	left: 18%;
+	
+}
+.abc .cc ul{
+	position: absolute;
+	top:  60px; /* 位置を変える*/
+	left: 36%;
+	
+}
+.abc .dd ul{
+	position: absolute;
+	top:  60px; /* 位置を変える*/
+	left: 53.8%;
+	
+}
+.abc .ee ul{
+	position: absolute;
+	top:  60px; /* 位置を変える*/
+	right:0;
+	
+}
+.abc li ul li{
+	display: block;
+	width: 100%;
+	
+}
+.abc li ul li a{
+	background-color: #efefef;
+	color: #444;
+}
+.abc li ul li a:hover{
+	background-color: #ddd;
+}
+.abc li ul li a:hover{
+	background-color: #ddd;
+}
+.abc li ul li a:hover{
+	background-color: #ddd;
+}
+@media (max-width: 1000px) {
+
+
+
+}
+
+/* ブレイクポイントをmax-width: 670pxに指定してください */
+@media (max-width: 670px) {
+	
+.abc .aa ul{
+	position: absolute;
+	top:  60px; /* 位置を変える*/
+	left: 0;
+	
+}
+.abc .bb ul{
+	position: absolute;
+	top:  60px; /* 位置を変える*/
+	left: 18%;
+	
+}
+.abc .cc ul{
+	position: absolute;
+	top:  60px; /* 位置を変える*/
+	left: 36%;
+	
+}
+.abc .dd ul{
+	position: absolute;
+	top:  60px; /* 位置を変える*/
+	left: 53.8%;
+	
+}
+.abc .ee ul{
+	position: absolute;
+	top:  60px; /* 位置を変える*/
+	left: 71.8%;
+	
+}
+.abc li ul li{
+	display: block;
+	
+}
+.abc li ul li a{
+	background-color: #efefef;
+	color: #444;
+}
+.abc li ul li a:hover{
+	background-color: #ddd;
+}
+.abc li ul li a:hover{
+	background-color: #ddd;
+}
+.abc li ul li a:hover{
+	background-color: #ddd;
+}
+
+}

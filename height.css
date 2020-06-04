@@ -1,0 +1,8 @@
+﻿.sample01 ul li ul li{
+	height: 0;
+	overflow: hidden;
+}
+.sample01 ul li:hover ul li{
+	height: auto; /*サブメニューの高さ*/
+	overflow: visible;
+}
