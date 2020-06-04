@@ -2,11 +2,12 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>ホーム</title>
-<link rel="stylesheet" href="head1.css">
-<link rel="stylesheet" href="menu1.css">
-<!--<link rel="stylesheet" href="gazou1.css">-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><!-- 忘れがちこれがないとドロップメニュー出来ない -->
+<title>トップページ</title>
+<link rel="stylesheet" href="media1.css">
+<link rel="stylesheet" href="media2.css">
+<link rel="stylesheet" href="media3.css">
+<link rel="stylesheet" href="media4.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <script>
 $(function() {
@@ -18,12 +19,14 @@ $('ul', this).stop().slideDown('fast');
 .mouseout(function(e) {
 $('ul', this).stop().slideUp('fast');
 });
+
 });
 </script>
+
 </head>
 <body>
 <div class="head">
-<h1 style="display:inline;"><b>社会福祉法人&nbsp;たけるの里&nbsp&nbsp　　　　　　　　</b></h1> <!--  style="display:inline;"改行しない*/-->
+<h1 style="display:inline;"><b>社会福祉法人&nbsp;たけるの里</b></h1> <!--  style="display:inline;"改行しない*/-->
 <a style="display:inline;"href="tel:+81-90-0000-0000">090-0000-0000</a><p style="display:inline;">&nbsp&nbsp</p>
 <img src="../image/logo.jpg" width=80px height=80px>
 </div>
@@ -69,6 +72,89 @@ $('ul', this).stop().slideUp('fast');
         </li>
     </ul>
 </header>
+<div class="gazou1">
+	<img class="toggleImg" src="../image/kodomo1_sp.jpg" name="gazou">
+<!--	<img class="pc" src="../image/image1200/kodomo1.jpg" name="gazou">
+	<img class="sp" src="../image/image1200/kodomo1.jpg" name="gazou">-->
+<!--<script type="text/javascript">
+$(function () {
+  var width = $(window).width();
+  if( width < 700 ){
+    $(".toggleImg").each(function(){
+      $(this).attr("src", $(this).attr("src").replace("_pc","_sp"));
+    })
+  }
+});
 
+</script> 画面サイズで画像を変えたいときに使用 -->
+	<h3 class="pc">笑顔をつなげる<br>こころをつなげる</h3>
+<script type="text/javascript">
+
+
+	//var width = $(window).width();
+	//if(width < 700){
+	img = new Array("../image/kodomo1_sp.jpg","../image/kodomo2_sp.jpg","../image/kodomo3_sp.jpg","../image/kodomo4_sp.jpg");
+//}
+//	else{
+//	img = new Array("../image/kodomo1_pc.jpg","../image/kodomo2_pc.jpg","../image/kodomo3_pc.jpg","../image/kodomo4_pc.jpg"); 
+//}画面サイズで画像を変えている。
+count = -1; //*2
+imgTimer();
+
+function imgTimer() {
+	//画像番号
+	count++; //*3
+	//画像の枚数確認
+	if (count == img.length) count = 0; //*4
+	//画像出力
+	document.gazou.src = img[count]; //*5
+	//次のタイマー呼びだし
+	setTimeout("imgTimer()",1000*3.5); //*6
+}
+</script>
+
+</div>
+<!--<div class="gazou2">
+<img class="sp" src="../image/image670/kodomo1.jpg" name="gazou">
+<h3 class="sp">笑顔をつなげる<br>こころをつなげる</h3>
+<script type="text/javascript">
+img2 = new Array2("../image/image670/kodomo1.jpg","../image/image670/kodomo2.jpg","../image/image670/kodomo3.jpg","../image/image670/kodomo4.jpg","../image/image670/kodomo1.jpg","../image/image670/kodomo2.jpg"); //*1
+count = -1; //*2
+imgTimer();
+
+function imgTimer() {
+	//画像番号
+	count++; //*3
+	//画像の枚数確認
+	if (count == img2.length) count = 0; //*4
+	//画像出力
+	document.gazou.src = img2[count]; //*5
+	//次のタイマー呼びだし
+	setTimeout("imgTimer()",1000*3.5); //*6
+}
+</script>
+</div>-->
+
+
+<div class="sin">
+	<h2 class="sinb">新着情報</h2>
+	<div class="sina">　2018/10/01&nbsp<a href="#">aaaaaaaaaaaaaaa</a></div><br>
+	<div class="sina">　2018/10/01&nbsp<a href="#">aaaaaaaaaaaaaaa</a></div><br>
+	<div class="sina">　2018/10/01&nbsp<a href="#">aaaaaaaaaaaaaaa</a></div><br>
+	<div class="sina">　2018/10/01&nbsp<a href="#">aaaaaaaaaaaaaaa</a></div><br>
+	<div class="sina">　2018/10/01&nbsp<a href="#">aaaaaaaaaaaaaaa</a></div><br>
+	<div class="sina">　2018/10/01&nbsp<a href="#">aaaaaaaaaaaaaaa</a></div><br>
+	
+</div>
+
+<div class="sin">
+	<h2 class="sinb">注目情報</h2>
+	<div class="sina">　2018/10/01&nbsp<a href="#">aaaaaaaaaaaaaaa</a></div><br>
+	<div class="sina">　2018/10/01&nbsp<a href="#">aaaaaaaaaaaaaaa</a></div><br>
+	<div class="sina">　2018/10/01&nbsp<a href="#">aaaaaaaaaaaaaaa</a></div><br>
+	<div class="sina">　2018/10/01&nbsp<a href="#">aaaaaaaaaaaaaaa</a></div><br>
+	<div class="sina">　2018/10/01&nbsp<a href="#">aaaaaaaaaaaaaaa</a></div><br>
+	<div class="sina">　2018/10/01&nbsp<a href="#">aaaaaaaaaaaaaaa</a></div><br>
+</div>
 </body>
 </html>
