@@ -1,0 +1,61 @@
+/* ブレイクポイントをmax-width: 1000pxに指定してください */
+@media screen and (min-width:900px) and (max-width:1200px){
+.tbl-bdr table,td,th {
+    border-collapse: collapse;
+    border:1px solid #333;
+    width:70%;
+    }
+.tbl-bdr td{
+	width:75%;
+}
+.tbl-bdr th {
+	width:25%;
+}
+.bou{
+	width:70%;
+}
+}
+@media (min-width: 1200px) {
+.tbl-bdr table,td,th {
+    border-collapse: collapse;
+    border:1px solid #333;
+    width:50%;
+    }
+.tbl-bdr td{
+	width:75%;
+}
+.tbl-bdr th {
+	width:25%;
+}
+.bou{
+	width:50%;
+}
+}
+/* ブレイクポイントをmax-width: 1000pxに指定してください */
+@media screen and (min-width: 700px) and (max-width: 900px) {
+.tbl-bdr table,td,th {
+    border-collapse: collapse;
+    border:1px solid #333;
+    width:100%;
+    }
+.tbl-bdr td{
+	width:75%;
+}
+.tbl-bdr th {
+	width:25%;
+}
+}
+/* ブレイクポイントをmax-width: 670pxに指定してください */
+@media screen and (min-width: 0px) and (max-width: 750px) {
+.tbl-bdr table,td,th {
+    border-collapse: collapse;
+    border:1px solid #333;
+    width:100%;
+    }
+.tbl-bdr td{
+	width:75%;
+}
+.tbl-bdr th {
+	width:25%;
+}
+}
