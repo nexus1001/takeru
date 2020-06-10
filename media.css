@@ -56,7 +56,7 @@ body{
 	box-sizing: border-box;
 	display: inline-block; /*画面サイズを変えると見切れる*/
 	/*display:table-cell; 画面サイズを変えても見切れない*/
-/*	vertical-align: middle; 縦方向の揃え位置を指定する*/
+/*	vertical-align: middle; 縦方向揃え位置を指定する*/
 	text-align: center;
 }
 
