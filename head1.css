@@ -1,18 +1,18 @@
-/* ƒhƒƒbƒvƒ_ƒEƒ“ƒƒjƒ…[ */
+/* ãƒ‰ãƒ­ãƒƒãƒ—ãƒ€ã‚¦ãƒ³ãƒ¡ãƒ‹ãƒ¥ãƒ¼ */
 
 body{
 	width: 1200px;
-	margin-right: auto;/*‚±‚±‚Å’†‰›Šñ‚¹‚ğw’è‚·‚éB*/
-	margin-left:  auto;/*‚±‚±‚Å’†‰›Šñ‚¹‚ğw’è‚·‚éB*/
+	margin-right: auto;/*ã“ã“ã§ä¸­å¤®å¯„ã›ã‚’æŒ‡å®šã™ã‚‹ã€‚*/
+	margin-left:  auto;/*ã“ã“ã§ä¸­å¤®å¯„ã›ã‚’æŒ‡å®šã™ã‚‹ã€‚*/
 	
 }
 .head{
-	position: relative;/*e—v‘f@*/
-	background-image: url("../html&css/haikei.jpg");
+	position: relative;/*è¦ªè¦ç´ ã€€*/
+	background-image: url("haikei.jpg");
 	height: 80px;
-	line-height: 80px;/* s‚Ì‚‚³‚ğ•Ï‚¦‚éB */
-	margin: 0px; /*‹ó”’‚ğÁ‚·*/
-    	padding: 0px;/*‹ó”’‚ğÁ‚·*/
+	line-height: 80px;/* è¡Œã®é«˜ã•ã‚’å¤‰ãˆã‚‹ã€‚ */
+	margin: 0px; /*ç©ºç™½ã‚’æ¶ˆã™*/
+    	padding: 0px;/*ç©ºç™½ã‚’æ¶ˆã™*/
 	text-align: right;
 	
 	
@@ -24,7 +24,7 @@ body{
 	
 }
 .head img{
-	position: absolute;/*q—v‘f@e—v‘f‚Ì—Ìˆæã‚Å‰æ‘œ‚ğˆÚ“®”z’u*/
-	top: 0px;	/*ˆÚ“®*/
+	position: absolute;/*å­è¦ç´ ã€€è¦ªè¦ç´ ã®é ˜åŸŸä¸Šã§ç”»åƒã‚’ç§»å‹•é…ç½®*/
+	top: 0px;	/*ç§»å‹•*/
 	left: 330px;
 }
