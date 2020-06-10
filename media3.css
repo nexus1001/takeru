@@ -46,7 +46,7 @@ body{
 
 .head{
 	position: relative;/*親要素　*/
-	background-image: url("https://nexus1001.github.io/takeru/haikei.jpg");
+	background-image: url("https://github.com/nexus1001/takeru/haikei.jpg");
 	height: 80px;
 	line-height: 80px;/* 行の高さを変える。 */
 	margin: 0px; /*空白を消す*/
