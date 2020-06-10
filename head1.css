@@ -8,7 +8,7 @@ body{
 }
 .head{
 	position: relative;/*親要素　*/
-	background-image: url("../image/haikei.jpg");
+	background-image: url("../html&css/haikei.jpg");
 	height: 80px;
 	line-height: 80px;/* 行の高さを変える。 */
 	margin: 0px; /*空白を消す*/
