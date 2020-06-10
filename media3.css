@@ -4,7 +4,7 @@
 }
 
 /* ブレイクポイントをmax-width: 1000pxに指定してください */
-@media screen and (min-width: 700px) and (max-width: 900px){
+@media screen and (min-width: 700px){
  
   /* h1のcolorをgreenに指定してください */
   h1{
