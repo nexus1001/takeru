@@ -98,7 +98,7 @@ gazou1 img{
 }
 
 /*.menu li ul {
-	display: none; /* 要素も取得されず、完全にその場にない扱い */
+	display: none;  要素も取得されず、完全にその場にない扱い 
 	margin-left: -40px;
 	width: 100%;
 	position: absolute;
