@@ -73,7 +73,7 @@ body{
 .head img{
 	position: absolute;/*子要素　親要素の領域上で画像を移動配置*/
 	top: 0px;	/*移動*/
-	left: 245px;
+	left: 45px;
 }
 
 .menu {
