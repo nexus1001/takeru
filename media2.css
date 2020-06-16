@@ -3,9 +3,6 @@
   box-sizing: border-box;
 }
 
-/* ブレイクポイントをmax-width: 670pxに指定してください */
-@media screen and (min-width: 0px) and (max-width: 700px) {
- 
   /* h1のcolorをgreenに指定してください */
  
 body{
