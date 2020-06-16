@@ -103,23 +103,26 @@ body{
 	background: #009900;
 }
 
-/*.menu li ul {
-	display: none;  要素も取得されず、完全にその場にない扱い 
+.menu li ul {
+	/*display: none;  要素も取得されず、完全にその場にない扱い 
 	margin-left: -40px;
 	width: 100%;
 	position: absolute;
-	z-index: 2;
+	z-index: 2;*/
+	visibility:hidden;
 }
 
 .menu  li ul li:hover  a {
-	color: white;
-	background: #00CC00;
+	/*color: white;
+	background: #00CC00;*/
+	visibility:hidden;
 }
 
 .menu li ul li a {
-	border-top: 1px solid #eeeeee;
-	text-align: left;
-}*/
+	/*border-top: 1px solid #eeeeee;
+	text-align: left;*/
+	visibility:hidden;
+}
 .sinb{
 	border: double 10px black;
 }
