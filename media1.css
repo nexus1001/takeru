@@ -62,7 +62,8 @@ body{
 	
 }
 .head a{
-	text-align: left;
+	left: 120px;
+	font-size: 25px;
 }
 .head p{
 	
