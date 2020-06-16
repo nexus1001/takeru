@@ -97,7 +97,7 @@ gazou1 img{
 	background: #009900;
 }
 
-.menu li ul {
+/*.menu li ul {
 	display: none; /* 要素も取得されず、完全にその場にない扱い */
 	margin-left: -40px;
 	width: 100%;
@@ -113,7 +113,7 @@ gazou1 img{
 .menu li ul li a {
 	border-top: 1px solid #eeeeee;
 	text-align: left;
-}
+}*/
 .sinb{
 	border: double 10px black;
 }
