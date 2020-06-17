@@ -6,7 +6,7 @@
   /* h1のcolorをgreenに指定してください */
  
 body{
-	width: 800px;
+	width: 100%;
 	margin-right: auto;/*ここで中央寄せを指定する。*/
 	margin-left:  auto;/*ここで中央寄せを指定する。*/
 	
@@ -16,7 +16,7 @@ body{
 	text-align: center;/* 画像をセンターに配置*/
 	position: relative;/*親要素　*/
 	z-index: 1; /* 要素の優先順位を決める　被せる */
-	width: 800px;
+	width: 100%;
 	height: auto;
 }
 gazou1 img{
