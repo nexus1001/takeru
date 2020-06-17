@@ -16,7 +16,7 @@ body{
 	text-align: center;/* 画像をセンターに配置*/
 	position: relative;/*親要素　*/
 	z-index: 1; /* 要素の優先順位を決める　被せる */
-	width: 660px;
+	width: 800px;
 	height: auto;
 }
 gazou1 img{
