@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>交通アクセス</title>
+<link rel="stylesheet" href="head1.css">
+<link rel="stylesheet" href="media2.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+$(function() {
+var menu = $('.menu');
+$('li', menu)
+.mouseover(function(e) {
+$('ul', this).stop().slideDown('fast');
+})
+.mouseout(function(e) {
+$('ul', this).stop().slideUp('fast');
+});
+});
+</script>
+
+</head>
+<body>
+<div class="head">
+<h1 style="display:inline;"><b>社会福祉法人&nbsp;たけるの里</b></h1> <!--  style="display:inline;"改行しない*/-->
+<a style="display:inline;"href="tel:+81-90-0000-0000">090-0000-0000</a><p style="display:inline;">&nbsp&nbsp</p>
+<img src="https://nexus1001.github.io/takeru/logo.jpg" width=80px height=80px>
+</div>
+<header>
+	 <ul class="menu">
+	<li><a href="sumaho1.html">トップ</a></li>
+        <li><a href="home1.html">ホーム<span></span></a>
+        <!--    <ul>
+                <li><a href="home.html#example">島泉</a></li>
+                <li><a href="#">野々上</a></li>
+                <li><a href="#">さくら</a></li>
+		<li><a href="#">はびきの</a></li>
+		<li><a href="#">藤井寺</a></li>
+		<li><a href="#">なのはな</a></li>
+            </ul>-->
+	</li>
+        <li><a href="sisetu1.html">通所施設<span></span></a>
+           <!-- <ul>
+                <li><a href="#">あすか</a></li>
+                <li><a href="#">たちばな</a></li>
+            </ul>-->
+	</li>
+	<li><a href="gaiyou1.html">サービス概要<span></span></a>
+          <!--  <ul>
+                <li><a href="#">居住サービス概要</a></li>
+                <li><a href="#">通所サービス概要</a></li>
+               <!-- <li><a href="#">Sub-menu00</a></li>-->
+            </ul>-->
+	</li>
+	<!--<li><a href="acces1.html">交通アクセス<span></span></a>
+            <ul>
+                <li><a href="#">Sub-menu22</a></li>
+                <li><a href="#">Sub-menu00</a></li>
+                <li><a href="#">Sub-menu00</a></li>
+            </ul>
+	</li>-->
+	<li><a href="syokuin1.html">職員募集<span></span></a>
+           <!-- <ul>
+                <li><a href="#">生活支援の募集</a></li>
+                <li><a href="#">世話人の募集</a></li>
+                <li><a href="#">通所サービスの支援員募集</a></li>
+            </ul>-->
+        </li>
+    </ul>
+</header>
+</body>
+</html>
