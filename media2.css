@@ -51,7 +51,7 @@ gazou1 img{
 .head h1{
 	position: absolute;
 	color: green;
-	<!--text-align: center;-->
+	text-align: center;
 	left: 30%;
 	top: 0px;
 }
