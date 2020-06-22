@@ -59,7 +59,9 @@ body{
 	
 }
 .head h1{
-	
+	position: absolute;/*子要素　親要素の領域上で画像を移動配置*/
+	top: 0px;	/*移動*/
+	left: 250px;
 }
 .sumaho{
 	position: absolute;/*子要素　親要素の領域上で画像を移動配置*/
