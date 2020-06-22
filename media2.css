@@ -49,6 +49,8 @@ gazou1 img{
 	
 }
 .head h1{
+	position: absolute;/*子要素　親要素の領域上で画像を移動配置*/
+	top: 0px;
 	color: green;
 	text-align: center;
 	left: 30%;
