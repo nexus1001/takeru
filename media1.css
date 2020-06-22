@@ -59,13 +59,15 @@ body{
 	
 }
 .head h1{
+	position: absolute;/*子要素　親要素の領域上で画像を移動配置*/
+	top: 0px;
 	left: 280px;
 }
 .sumaho{
 	position: absolute;/*子要素　親要素の領域上で画像を移動配置*/
 	top: 0px;
 	left: 0px;
-	font-size: 35px;
+	font-size: 30px;
 	font-weight: bold: /*文字を太くする*/
 	
 }
