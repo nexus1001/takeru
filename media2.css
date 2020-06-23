@@ -32,7 +32,7 @@ gazou1 img{
 .gazou1 h3{
 	position: absolute;/*子要素　親要素の領域上で画像を移動配置*/
 	top: 100px;	/*移動*/
-	left: 250px;
+	left: 30%;
 	color: white;
 	font-size: 45px;
 }
@@ -52,7 +52,7 @@ gazou1 img{
 	position: absolute;/*子要素　親要素の領域上で画像を移動配置*/
 	top: 0px;
 	color: green;
-	left: 160px;
+	left: 30%;
 }
 .head p{
 	
@@ -60,7 +60,7 @@ gazou1 img{
 .head img{
 	position: absolute;/*子要素　親要素の領域上で画像を移動配置*/
 	top: 0px;	/*移動*/
-	left:100px;
+	left:20%;
 }
 
 .menu {
