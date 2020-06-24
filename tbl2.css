@@ -4,6 +4,13 @@
     margin: 2em 0;
     color: #2c2c2f;
     background: #cde4ff;/*”wŒiF*/
+    float: right;
+}
+.box4 {
+    width: 40%;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    float: left;
 }
 .box3 p {
     margin: 0; 
