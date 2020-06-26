@@ -19,6 +19,13 @@
     padding: 0;
     
 }
+.box7 img{
+       float: center;
+}
+.box7 h2{
+       float: center;
+       color: #FFB6C1;
+}
 .box8 {
     padding: 0.5em 1em;
     margin: 2em 0;
