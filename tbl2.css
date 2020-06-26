@@ -89,6 +89,7 @@ tfoot {
     width: 50%;
     padding: 0.5em 1em;
     margin: 2em 0;
+    lefr: 50px;
     float: left;
 }
 .box6 {
@@ -97,5 +98,6 @@ tfoot {
     width: 50%;
     padding: 0.5em 1em;
     margin: 2em 0;
+    right: 50px;
     float: right;
 }
