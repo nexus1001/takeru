@@ -57,12 +57,16 @@ tfoot {
     color: #fff;
 }
 .box5 {
+    position:relative; /*相対配置*/
+    top: 50px;
     width: 50%;
     padding: 0.5em 1em;
     margin: 2em 0;
     float: left;
 }
 .box6 {
+    position:relative; /*相対配置*/
+    top: 50px;
     width: 50%;
     padding: 0.5em 1em;
     margin: 2em 0;
