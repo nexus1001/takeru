@@ -24,10 +24,18 @@
     background: #FFD5EC;
     float: center;
 }
+.box8 p {
+    color: #2c2c2f;
+    background: #FF82B2;
+    float: center;
+}
 .box9 {
     padding: 0.5em 1em;
     margin: 2em 0;
     color: #2c2c2f;
     background: #FF82B2;
     float: center;
+}
+.bou {
+    font-size: 15px;   
 }
