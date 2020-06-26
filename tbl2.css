@@ -26,27 +26,26 @@
        color: #FFB6C1;
        text-align:center;
 }
-.box7 h1{
-       color: #FFB6C1;
-       font-size: 40px;
-}
-.box7 h3{
-       font-size: 20px;
-       text-align:center;
+.box7 img{
+       top: 70px;
+       text-align: center;
 }
 .box71 {
+       text-align: center;
+}
+.box71 img{
+       top: 70px;
        text-align: center;
 }
 .box71 h2{
        color: #99CCFF;
        text-align:center;
 }
-.box71 h1{
-       color: #99CCFF;
-       font-size: 40px;
-}
-.box71 h3{
+.box711 h3{
        font-size: 20px;
+       text-align:center;
+}
+.box711{
        text-align:center;
 }
 .box8 {
