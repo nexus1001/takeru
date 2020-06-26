@@ -85,16 +85,16 @@ tfoot {
 }
 .box5 {
     position:relative; /*相対配置*/
-    top: 50px;
+    top: 0px;
     width: 50%;
     padding: 0.5em 1em;
     margin: 2em 0;
-    lefr: 50px;
+    left: 50px;
     float: left;
 }
 .box6 {
     position:relative; /*相対配置*/
-    top: 50px;
+    top: 0px;
     width: 50%;
     padding: 0.5em 1em;
     margin: 2em 0;
