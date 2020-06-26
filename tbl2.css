@@ -15,4 +15,19 @@
 .box3 p {
     margin: 0; 
     padding: 0;
+    
+}
+.box8 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #2c2c2f;
+    background: #FFD5EC;
+    float: center;
+}
+.box9 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #2c2c2f;
+    background: #FF82B2;
+    float: center;
 }
