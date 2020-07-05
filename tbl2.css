@@ -101,6 +101,24 @@ tfoot {
     right: 20px;
     float: right;
 }
+.box51 {
+    position:relative; /*相対配置*/
+    top: 0px;
+    width: 80%;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    left: 20px;
+    float: left;
+}
+.box61 {
+    position:relative; /*相対配置*/
+    top: 0px;
+    width: 80%;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    right: 20px;
+    float: right;
+}
 .box123 h3{
     color: #40E0D0;
 }
