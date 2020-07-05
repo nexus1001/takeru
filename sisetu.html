@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="media1.css">
 <link rel="stylesheet" href="tbl2.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <script>
 $(function() {
 var menu = $('.menu');
@@ -20,7 +20,22 @@ $('ul', this).stop().slideUp('fast');
 });
 });
 </script>
-
+<script>
+$(document).ready(function() {
+  var pagetop = $('.pagetop');
+    $(window).scroll(function () {
+       if ($(this).scrollTop() > 100) {
+            pagetop.fadeIn();
+       } else {
+            pagetop.fadeOut();
+            }
+       });
+       pagetop.click(function () {
+           $('body, html').animate({ scrollTop: 0 }, 500);
+              return false;
+   });
+});
+</script>
 </head>
 <body>
 <div class="head">
@@ -69,6 +84,7 @@ $('ul', this).stop().slideUp('fast');
         </li>
     </ul>
 </header>
+	<p class="pagetop"><a href="#wrap">▲</a></p>
 	<div class="box7" style="padding: 0px; margin-bottom: 0px; border: 1px solid #333333; background-color: white; color: #ffffff;">
 	<img src="https://nexus1001.github.io/takeru/logo002.jpg">	
 	<h2 id="sisetu1"><b>生活介護・就労継続支援B型</b></h2>
