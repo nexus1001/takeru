@@ -104,7 +104,7 @@ tfoot {
 .box51 {
     position:relative; /*相対配置*/
     top: 0px;
-    width: 80%;
+    width: 50%;
     padding: 0.5em 1em;
     margin: 2em 0;
     left: 20px;
@@ -113,7 +113,7 @@ tfoot {
 .box61 {
     position:relative; /*相対配置*/
     top: 0px;
-    width: 80%;
+    width: 50%;
     padding: 0.5em 1em;
     margin: 2em 0;
     right: 20px;
