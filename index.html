@@ -5,7 +5,7 @@
 <title>トップページ</title>
 <link rel="stylesheet" href="media1.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <script>
 $(function() {
 var menu = $('.menu');
@@ -27,6 +27,22 @@ var ua = navigator.userAgent.toUpperCase();
          ua.indexOf('MOBILE') != -1)){
         location.href = 'https://nexus1001.github.io/takeru/sumaho1.html';
     }
+</script>
+<script>
+$(document).ready(function() {
+  var pagetop = $('.pagetop');
+    $(window).scroll(function () {
+       if ($(this).scrollTop() > 100) {
+            pagetop.fadeIn();
+       } else {
+            pagetop.fadeOut();
+            }
+       });
+       pagetop.click(function () {
+           $('body, html').animate({ scrollTop: 0 }, 500);
+              return false;
+   });
+});
 </script>
 </head>
 <body>
@@ -77,6 +93,7 @@ var ua = navigator.userAgent.toUpperCase();
         </li>
     </ul>
 </header>
+	<p class="pagetop"><a href="#wrap">▲</a></p>
 <div class="gazou1">
 	<img class="toggleImg" src="https://nexus1001.github.io/takeru/kodomo1_sp.jpg" name="gazou">
 <!--	<img class="pc" src="https://nexus1001.github.io/takeru/image1200/kodomo1.jpg" name="gazou">
