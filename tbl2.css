@@ -122,3 +122,26 @@ tfoot {
 .box123 h3{
     color: #40E0D0;
 }
+.box31 {
+    position:relative; /*相対配置*/
+    right: 90px;
+    width: 40%;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #2c2c2f;
+    background: #cde4ff;/*”wŒiF*/
+    float: right;
+    font-size: 20px;
+}
+.box41 {
+    width: 60%;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    float: left;
+    font-size: 20px;
+}
+.box31 p {
+    margin: 0; 
+    padding: 0;
+    
+}
