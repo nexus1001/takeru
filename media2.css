@@ -127,3 +127,6 @@ gazou1 img{
 	height: auto;
 }
 .gazou1 .sp { display: block !important; }　スマホ画面サイズの時に表示する。 */
+hr {
+	border-top: 9px dotted #40E0D0;;    /* 上側の1本線 */	
+}
