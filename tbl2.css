@@ -109,6 +109,7 @@ tfoot {
     margin: 2em 0;
     left: 20px;
     float: left;
+    font-size: 20px;
 }
 .box61 {
     position:relative; /*相対配置*/
@@ -118,6 +119,7 @@ tfoot {
     margin: 2em 0;
     right: 20px;
     float: right;
+    font-size: 20px;
 }
 .box123 h3{
     color: #40E0D0;
