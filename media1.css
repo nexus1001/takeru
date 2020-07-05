@@ -23,7 +23,7 @@ body{
 hr{
 	border-width: 1px 0px 0px 0px; /* 太さ */
    border-style: solid; /* 線種 */
-   border-color: #BB0000;   /* 線色 */
+  /* border-color: #BB0000;    線色 */
    height: 1px;         /* 高さ(※古いIE用) */	
 }
 .gazou1{
