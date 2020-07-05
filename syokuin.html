@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="tbl.css">
 <link rel="stylesheet" href="media1.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <script>
 $(function() {
 var menu = $('.menu');
@@ -20,7 +20,22 @@ $('ul', this).stop().slideUp('fast');
 });
 });
 </script>
-
+<script>
+$(document).ready(function() {
+  var pagetop = $('.pagetop');
+    $(window).scroll(function () {
+       if ($(this).scrollTop() > 100) {
+            pagetop.fadeIn();
+       } else {
+            pagetop.fadeOut();
+            }
+       });
+       pagetop.click(function () {
+           $('body, html').animate({ scrollTop: 0 }, 500);
+              return false;
+   });
+});
+</script>
 </head>
 <body>
 <div class="head">
@@ -69,7 +84,7 @@ $('ul', this).stop().slideUp('fast');
         </li>
     </ul>
 </header>
-<p></p>
+<p class="pagetop"><a href="#wrap">▲</a></p>
 <!--<a href= "https://www.baitoru.com/op423590/alist/" ><b>職員募集は、こちらをクリックしてください。</b></a>-->
 <h3>応募や募集要項の詳細につきましては、下記担当者までご連絡ください。</h3>
 <h2><b>社会福祉法人たけるの里</b></h2>
