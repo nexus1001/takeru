@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="tbl2.css">
 <!--<link rel="stylesheet" href="gazou1.css">-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><!-- 忘れがちこれがないとドロップメニュー出来ない -->
-
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <script>
 $(function() {
 var menu = $('.menu');
@@ -19,6 +19,22 @@ $('ul', this).stop().slideDown('fast');
 .mouseout(function(e) {
 $('ul', this).stop().slideUp('fast');
 });
+});
+</script>
+<script>
+$(document).ready(function() {
+  var pagetop = $('.pagetop');
+    $(window).scroll(function () {
+       if ($(this).scrollTop() > 100) {
+            pagetop.fadeIn();
+       } else {
+            pagetop.fadeOut();
+            }
+       });
+       pagetop.click(function () {
+           $('body, html').animate({ scrollTop: 0 }, 500);
+              return false;
+   });
 });
 </script>
 </head>
@@ -69,7 +85,7 @@ $('ul', this).stop().slideUp('fast');
         </li>
     </ul>
 </header>
-	<p>　</p>
+	<p class="pagetop"><a href="#wrap">▲</a></p>
 <div class="bou" style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 20px; background-color: #009999; color: #ffffff;">
     <b>巣立ちの家　ホーム</b>
 	</div>
